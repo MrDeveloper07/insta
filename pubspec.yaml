@@ -1,0 +1,62 @@
+name: insta
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.0.0
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img1.png
+    - assets/img2.png
+    - assets/img3.jpg
+    - assets/reel1.jpeg
+    - assets/reel2.jpeg
+    - assets/reel3.jpeg
+    - assets/reel4.jpg
+    - assets/reel5.jpg
+    - assets/messenger.svg
+    - assets/comment.svg
+    - assets/send.svg
+    - assets/post1.jpeg
+    - assets/post2.jpg
+    - assets/post3.jpg
+    - assets/instareel.svg
+    - assets/prof1.jpg
+    - assets/prof2.jpg
+    - assets/prof3.jpg
+    - assets/home.svg
+    - assets/home_outline.svg
+    - assets/threads-icon.svg
+    - assets/add-box-svgrepo-com.svg
+    - assets/three-horizontal-lines-icon.svg
+    - assets/add-user-svgrepo-com.svg
+    - assets/Grid-3x3-Gap-Fill--Streamline-Bootstrap.svg
+    - assets/instagram-tag-icon.svg
+    - assets/reelvideo.mp4
+    - assets/reelvideo2.mp4
+    - assets/reelvideo3.mp4
+    - assets/reelvideo4.mp4
+    - assets/three-dots-vertical-svgrepo-com.svg
+    - assets/music-svgrepo-com.svg
+    - assets/gift-svgrepo-com.svg
+    - assets/cross-svgrepo-com.svg
+
+  fonts:
+    - family: InstagramFonts
+      fonts: 
+        - asset: fonts/Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf
